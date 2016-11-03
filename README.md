@@ -13,7 +13,7 @@ https://leetcode.com/problems/two-sum/
 
 ## On Deck:
 
-### Reverse Stsring
+### Reverse String
 
 https://leetcode.com/problems/reverse-string/
 
