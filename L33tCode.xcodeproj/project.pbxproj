@@ -12,6 +12,7 @@
 		9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */; };
 		9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAEE7C31DCBB9080067B468 /* TwoSum.h */; };
 		9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7C41DCBB9080067B468 /* TwoSum.m */; };
+		9BAEE7CC1DCBC5510067B468 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7CB1DCBC5510067B468 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
 		9BAEE7C31DCBB9080067B468 /* TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoSum.h; path = TwoSum/TwoSum.h; sourceTree = "<group>"; };
 		9BAEE7C41DCBB9080067B468 /* TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoSum.m; path = TwoSum/TwoSum.m; sourceTree = "<group>"; };
+		9BAEE7CB1DCBC5510067B468 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				9BAEE7C71DCBB90D0067B468 /* TwoSum */,
 				9BAEE7C91DCBBBC90067B468 /* Supporting Files */,
+				9BAEE7CB1DCBC5510067B468 /* README.md */,
 			);
 			path = L33tCode;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAEE7CC1DCBC5510067B468 /* README.md in Sources */,
 				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
