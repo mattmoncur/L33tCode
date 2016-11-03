@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9BAEE7AD1DCBB4E80067B468 /* L33tCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAEE7A31DCBB4E80067B468 /* L33tCode.framework */; };
-		9BAEE7B21DCBB4E80067B468 /* L33tCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7B11DCBB4E80067B468 /* L33tCodeTests.m */; };
 		9BAEE7B41DCBB4E80067B468 /* L33tCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAEE7A61DCBB4E80067B468 /* L33tCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */; };
+		9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAEE7C31DCBB9080067B468 /* TwoSum.h */; };
+		9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7C41DCBB9080067B468 /* TwoSum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +29,10 @@
 		9BAEE7A61DCBB4E80067B468 /* L33tCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = L33tCode.h; sourceTree = "<group>"; };
 		9BAEE7A71DCBB4E80067B468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BAEE7AC1DCBB4E80067B468 /* L33tCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L33tCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BAEE7B11DCBB4E80067B468 /* L33tCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L33tCodeTests.m; sourceTree = "<group>"; };
 		9BAEE7B31DCBB4E80067B468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoSumTests.m; sourceTree = "<group>"; };
+		9BAEE7C31DCBB9080067B468 /* TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoSum.h; path = TwoSum/TwoSum.h; sourceTree = "<group>"; };
+		9BAEE7C41DCBB9080067B468 /* TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoSum.m; path = TwoSum/TwoSum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +75,8 @@
 		9BAEE7A51DCBB4E80067B468 /* L33tCode */ = {
 			isa = PBXGroup;
 			children = (
-				9BAEE7A61DCBB4E80067B468 /* L33tCode.h */,
-				9BAEE7A71DCBB4E80067B468 /* Info.plist */,
+				9BAEE7C71DCBB90D0067B468 /* TwoSum */,
+				9BAEE7C91DCBBBC90067B468 /* Supporting Files */,
 			);
 			path = L33tCode;
 			sourceTree = "<group>";
@@ -80,10 +84,44 @@
 		9BAEE7B01DCBB4E80067B468 /* L33tCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9BAEE7B11DCBB4E80067B468 /* L33tCodeTests.m */,
-				9BAEE7B31DCBB4E80067B468 /* Info.plist */,
+				9BAEE7C81DCBBBBF0067B468 /* TwoSum */,
+				9BAEE7CA1DCBBBD40067B468 /* Supporting Files */,
 			);
 			path = L33tCodeTests;
+			sourceTree = "<group>";
+		};
+		9BAEE7C71DCBB90D0067B468 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				9BAEE7C31DCBB9080067B468 /* TwoSum.h */,
+				9BAEE7C41DCBB9080067B468 /* TwoSum.m */,
+			);
+			name = TwoSum;
+			sourceTree = "<group>";
+		};
+		9BAEE7C81DCBBBBF0067B468 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */,
+			);
+			name = TwoSum;
+			sourceTree = "<group>";
+		};
+		9BAEE7C91DCBBBC90067B468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAEE7A61DCBB4E80067B468 /* L33tCode.h */,
+				9BAEE7A71DCBB4E80067B468 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BAEE7CA1DCBBBD40067B468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAEE7B31DCBB4E80067B468 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEE7B41DCBB4E80067B468 /* L33tCode.h in Headers */,
+				9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +186,7 @@
 				TargetAttributes = {
 					9BAEE7A21DCBB4E80067B468 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = L8NJVP5KD6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9BAEE7AB1DCBB4E80067B468 = {
 						CreatedOnToolsVersion = 8.1;
@@ -197,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BAEE7B21DCBB4E80067B468 /* L33tCodeTests.m in Sources */,
+				9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +359,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = L8NJVP5KD6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -338,7 +377,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = L8NJVP5KD6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -392,6 +431,7 @@
 				9BAEE7B91DCBB4E80067B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BAEE7BA1DCBB4E80067B468 /* Build configuration list for PBXNativeTarget "L33tCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +440,7 @@
 				9BAEE7BC1DCBB4E80067B468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
