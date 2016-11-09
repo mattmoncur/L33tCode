@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA6FC0D1DCBC82B0089545C /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6FC0C1DCBC82B0089545C /* description.txt */; };
+		9BA6FC111DCBC86B0089545C /* ReverseString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA6FC0F1DCBC86B0089545C /* ReverseString.h */; };
+		9BA6FC121DCBC86B0089545C /* ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6FC101DCBC86B0089545C /* ReverseString.m */; };
+		9BA6FC141DCBC8740089545C /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6FC131DCBC8740089545C /* description.txt */; };
 		9BAEE7AD1DCBB4E80067B468 /* L33tCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAEE7A31DCBB4E80067B468 /* L33tCode.framework */; };
 		9BAEE7B41DCBB4E80067B468 /* L33tCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAEE7A61DCBB4E80067B468 /* L33tCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7BD1DCBB6FB0067B468 /* TwoSumTests.m */; };
 		9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAEE7C31DCBB9080067B468 /* TwoSum.h */; };
 		9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7C41DCBB9080067B468 /* TwoSum.m */; };
 		9BAEE7CC1DCBC5510067B468 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7CB1DCBC5510067B468 /* README.md */; };
+		9BC21D991DD375DD00EFA108 /* ReverseStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BA6FC0C1DCBC82B0089545C /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = TwoSum/description.txt; sourceTree = "<group>"; };
+		9BA6FC0F1DCBC86B0089545C /* ReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReverseString.h; path = ReverseString/ReverseString.h; sourceTree = "<group>"; };
+		9BA6FC101DCBC86B0089545C /* ReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReverseString.m; path = ReverseString/ReverseString.m; sourceTree = "<group>"; };
+		9BA6FC131DCBC8740089545C /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = ReverseString/description.txt; sourceTree = "<group>"; };
 		9BAEE7A31DCBB4E80067B468 /* L33tCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = L33tCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAEE7A61DCBB4E80067B468 /* L33tCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = L33tCode.h; sourceTree = "<group>"; };
 		9BAEE7A71DCBB4E80067B468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +44,7 @@
 		9BAEE7C31DCBB9080067B468 /* TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoSum.h; path = TwoSum/TwoSum.h; sourceTree = "<group>"; };
 		9BAEE7C41DCBB9080067B468 /* TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoSum.m; path = TwoSum/TwoSum.m; sourceTree = "<group>"; };
 		9BAEE7CB1DCBC5510067B468 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseStringTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BA6FC0E1DCBC8310089545C /* ReverseString */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6FC131DCBC8740089545C /* description.txt */,
+				9BA6FC0F1DCBC86B0089545C /* ReverseString.h */,
+				9BA6FC101DCBC86B0089545C /* ReverseString.m */,
+			);
+			name = ReverseString;
+			sourceTree = "<group>";
+		};
 		9BAEE7991DCBB4E80067B468 = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				9BAEE7C71DCBB90D0067B468 /* TwoSum */,
+				9BA6FC0E1DCBC8310089545C /* ReverseString */,
 				9BAEE7C91DCBBBC90067B468 /* Supporting Files */,
-				9BAEE7CB1DCBC5510067B468 /* README.md */,
 			);
 			path = L33tCode;
 			sourceTree = "<group>";
@@ -88,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				9BAEE7C81DCBBBBF0067B468 /* TwoSum */,
+				9BC21D971DD375BA00EFA108 /* ReverseString */,
 				9BAEE7CA1DCBBBD40067B468 /* Supporting Files */,
 			);
 			path = L33tCodeTests;
@@ -96,6 +117,7 @@
 		9BAEE7C71DCBB90D0067B468 /* TwoSum */ = {
 			isa = PBXGroup;
 			children = (
+				9BA6FC0C1DCBC82B0089545C /* description.txt */,
 				9BAEE7C31DCBB9080067B468 /* TwoSum.h */,
 				9BAEE7C41DCBB9080067B468 /* TwoSum.m */,
 			);
@@ -113,6 +135,7 @@
 		9BAEE7C91DCBBBC90067B468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BAEE7CB1DCBC5510067B468 /* README.md */,
 				9BAEE7A61DCBB4E80067B468 /* L33tCode.h */,
 				9BAEE7A71DCBB4E80067B468 /* Info.plist */,
 			);
@@ -127,6 +150,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9BC21D971DD375BA00EFA108 /* ReverseString */ = {
+			isa = PBXGroup;
+			children = (
+				9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */,
+			);
+			name = ReverseString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEE7B41DCBB4E80067B468 /* L33tCode.h in Headers */,
+				9BA6FC111DCBC86B0089545C /* ReverseString.h in Headers */,
 				9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA6FC0D1DCBC82B0089545C /* description.txt in Resources */,
+				9BA6FC141DCBC8740089545C /* description.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEE7CC1DCBC5510067B468 /* README.md in Sources */,
+				9BA6FC121DCBC86B0089545C /* ReverseString.m in Sources */,
 				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */,
+				9BC21D991DD375DD00EFA108 /* ReverseStringTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
