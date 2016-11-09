@@ -11,9 +11,11 @@ Not optimal solution for performance, but simple.
 
 https://leetcode.com/problems/two-sum/
 
-## On Deck:
-
 ### Reverse String
+Solved using a reverse for-loop and appended characters to a mutable string
 
 https://leetcode.com/problems/reverse-string/
+
+## On Deck:
+TBD
 
