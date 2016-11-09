@@ -10,4 +10,6 @@
 
 @interface Battleships : NSObject
 
+- (int)countBattleships: (NSArray *)board;
+
 @end
