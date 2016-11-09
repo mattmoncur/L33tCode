@@ -10,4 +10,6 @@
 
 @interface ReverseString : NSObject
 
+- (NSString *) reverse: (NSString *)inputString;
+
 @end
