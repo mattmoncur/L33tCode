@@ -16,8 +16,10 @@ Solved using a reverse for-loop and appended characters to a mutable string
 
 https://leetcode.com/problems/reverse-string/
 
-## On Deck:
-
 ### Battleships in a Board
 
 https://leetcode.com/problems/battleships-in-a-board/
+
+## On Deck:
+
+TBD
