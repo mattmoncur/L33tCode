@@ -18,6 +18,11 @@ https://leetcode.com/problems/reverse-string/
 
 ### Battleships in a Board
 
+My approach was to traverse through the board top->bottom, left->right. 
+When encountering a "X" for the first time, attempt to record all coordinates for that battleship, and increase the count by one. 
+If coming across an "X" coordiante that already belongs to a battleship, do not increment the count, continue on traversing.
+
+
 https://leetcode.com/problems/battleships-in-a-board/
 
 ### Invert Binary Tree
