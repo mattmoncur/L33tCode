@@ -63,8 +63,8 @@
 		9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvertBinaryTree.h; path = InvertBinaryTree/InvertBinaryTree.h; sourceTree = "<group>"; };
 		9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvertBinaryTree.m; path = InvertBinaryTree/InvertBinaryTree.m; sourceTree = "<group>"; };
 		9BF8C6A31DD4FCA300877C0E /* InvertBinaryTreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertBinaryTreeTests.m; sourceTree = "<group>"; };
-		9BF8C6A51DD4FDCF00877C0E /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
-		9BF8C6A61DD4FDCF00877C0E /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		9BF8C6A51DD4FDCF00877C0E /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = InvertBinaryTree/TreeNode.h; sourceTree = "<group>"; };
+		9BF8C6A61DD4FDCF00877C0E /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = InvertBinaryTree/TreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
