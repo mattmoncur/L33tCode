@@ -25,6 +25,7 @@
 		9BF8C6991DD4FB0800877C0E /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8C6981DD4FB0800877C0E /* description.txt */; };
 		9BF8C69C1DD4FB8200877C0E /* InvertBinaryTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */; };
 		9BF8C69D1DD4FB8200877C0E /* InvertBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */; };
+		9BF8C69F1DD4FBF100877C0E /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8C69E1DD4FBF100877C0E /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9BF8C6981DD4FB0800877C0E /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = InvertBinaryTree/description.txt; sourceTree = "<group>"; };
 		9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvertBinaryTree.h; path = InvertBinaryTree/InvertBinaryTree.h; sourceTree = "<group>"; };
 		9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvertBinaryTree.m; path = InvertBinaryTree/InvertBinaryTree.m; sourceTree = "<group>"; };
+		9BF8C69E1DD4FBF100877C0E /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				9BF8C6981DD4FB0800877C0E /* description.txt */,
 				9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */,
 				9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */,
+				9BF8C69E1DD4FBF100877C0E /* TreeNode.swift */,
 			);
 			name = InvertBinaryTree;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				TargetAttributes = {
 					9BAEE7A21DCBB4E80067B468 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 					};
 					9BAEE7AB1DCBB4E80067B468 = {
@@ -326,6 +330,7 @@
 				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 				9BEFD4121DD380CA00897F3C /* Battleships.m in Sources */,
 				9BF8C69D1DD4FB8200877C0E /* InvertBinaryTree.m in Sources */,
+				9BF8C69F1DD4FBF100877C0E /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +454,7 @@
 		9BAEE7B81DCBB4E80067B468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -461,12 +467,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmoncur.L33tCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9BAEE7B91DCBB4E80067B468 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -479,12 +488,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmoncur.L33tCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		9BAEE7BB1DCBB4E80067B468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L8NJVP5KD6;
 				INFOPLIST_FILE = L33tCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +507,7 @@
 		9BAEE7BC1DCBB4E80067B468 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L8NJVP5KD6;
 				INFOPLIST_FILE = L33tCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
