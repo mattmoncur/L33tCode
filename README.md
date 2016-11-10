@@ -20,6 +20,10 @@ https://leetcode.com/problems/reverse-string/
 
 https://leetcode.com/problems/battleships-in-a-board/
 
+### Invert Binary Tree
+
+https://leetcode.com/problems/invert-binary-tree/
+
 ## On Deck:
 
 TBD
