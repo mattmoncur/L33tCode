@@ -22,7 +22,7 @@ https://leetcode.com/problems/battleships-in-a-board/
 
 ### Invert Binary Tree
 
-Using recursion to invert the tree. 
+Using recursion to invert the tree. First invert the nodes, then call invert on the child node. 
 
 https://leetcode.com/problems/invert-binary-tree/
 
