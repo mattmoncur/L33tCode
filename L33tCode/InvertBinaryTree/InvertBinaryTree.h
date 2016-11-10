@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TreeNode.h"
 
 @interface InvertBinaryTree : NSObject
+
+- (TreeNode *)invertTree: (TreeNode *) root;
 
 @end
