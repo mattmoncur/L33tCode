@@ -22,6 +22,8 @@ https://leetcode.com/problems/battleships-in-a-board/
 
 ### Invert Binary Tree
 
+Using recursion to invert the tree. 
+
 https://leetcode.com/problems/invert-binary-tree/
 
 ## On Deck:
