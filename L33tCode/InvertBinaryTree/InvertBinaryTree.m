@@ -16,7 +16,7 @@
         return nil;
     }
     
-    // invert nodes
+    // invert nodes by flipping pointer references
     TreeNode *left = root.left;
     TreeNode *right = root.right;
     root.left = right;
