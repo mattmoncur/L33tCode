@@ -11,18 +11,20 @@
 @implementation InvertBinaryTree
 
 - (TreeNode *)invertTree: (TreeNode *) root {
-    //protect against leaf nodes
+    // will only be nil for a child of a leaf node
     if (root == nil) {
         return nil;
     }
     
-    //before flipping nodes, recursively call invert to traverse down the tree, then bubble back up making invert left and right
-    TreeNode *right = [self invertTree:root.right];
-    TreeNode *left = [self invertTree:root.left];
-    
-    //invert nodes
+    // invert nodes
+    TreeNode *left = root.left;
+    TreeNode *right = root.right;
     root.left = right;
     root.right = left;
+    
+    // invert child nodes
+    root.left = [self invertTree:root.left];
+    root.right = [self invertTree:root.right];
     
     return root;
 }
