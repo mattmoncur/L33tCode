@@ -7,6 +7,7 @@
 //
 
 #import "InvertBinaryTree.h"
+#import "TreeNode.h"
 
 @implementation InvertBinaryTree
 
