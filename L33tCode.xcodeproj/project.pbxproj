@@ -22,6 +22,9 @@
 		9BEFD40E1DD380BC00897F3C /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFD40D1DD380BC00897F3C /* description.txt */; };
 		9BEFD4111DD380CA00897F3C /* Battleships.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEFD40F1DD380CA00897F3C /* Battleships.h */; };
 		9BEFD4121DD380CA00897F3C /* Battleships.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFD4101DD380CA00897F3C /* Battleships.m */; };
+		9BF8C6991DD4FB0800877C0E /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8C6981DD4FB0800877C0E /* description.txt */; };
+		9BF8C69C1DD4FB8200877C0E /* InvertBinaryTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */; };
+		9BF8C69D1DD4FB8200877C0E /* InvertBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		9BEFD40D1DD380BC00897F3C /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = Battleships/description.txt; sourceTree = "<group>"; };
 		9BEFD40F1DD380CA00897F3C /* Battleships.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Battleships.h; path = Battleships/Battleships.h; sourceTree = "<group>"; };
 		9BEFD4101DD380CA00897F3C /* Battleships.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Battleships.m; path = Battleships/Battleships.m; sourceTree = "<group>"; };
+		9BF8C6981DD4FB0800877C0E /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = InvertBinaryTree/description.txt; sourceTree = "<group>"; };
+		9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvertBinaryTree.h; path = InvertBinaryTree/InvertBinaryTree.h; sourceTree = "<group>"; };
+		9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvertBinaryTree.m; path = InvertBinaryTree/InvertBinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				9BEFD4091DD37FBA00897F3C /* Battleships */,
+				9BF8C6931DD4FAB500877C0E /* InvertBinaryTree */,
 				9BA6FC0E1DCBC8310089545C /* ReverseString */,
 				9BAEE7C71DCBB90D0067B468 /* TwoSum */,
 				9BAEE7C91DCBBBC90067B468 /* Supporting Files */,
@@ -186,6 +193,16 @@
 			name = Battleships;
 			sourceTree = "<group>";
 		};
+		9BF8C6931DD4FAB500877C0E /* InvertBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8C6981DD4FB0800877C0E /* description.txt */,
+				9BF8C69A1DD4FB8200877C0E /* InvertBinaryTree.h */,
+				9BF8C69B1DD4FB8200877C0E /* InvertBinaryTree.m */,
+			);
+			name = InvertBinaryTree;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -197,6 +214,7 @@
 				9BA6FC111DCBC86B0089545C /* ReverseString.h in Headers */,
 				9BEFD4111DD380CA00897F3C /* Battleships.h in Headers */,
 				9BAEE7C51DCBB9080067B468 /* TwoSum.h in Headers */,
+				9BF8C69C1DD4FB8200877C0E /* InvertBinaryTree.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA6FC0D1DCBC82B0089545C /* description.txt in Resources */,
+				9BF8C6991DD4FB0800877C0E /* description.txt in Resources */,
 				9BEFD40E1DD380BC00897F3C /* description.txt in Resources */,
 				9BA6FC141DCBC8740089545C /* description.txt in Resources */,
 			);
@@ -306,6 +325,7 @@
 				9BA6FC121DCBC86B0089545C /* ReverseString.m in Sources */,
 				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 				9BEFD4121DD380CA00897F3C /* Battleships.m in Sources */,
+				9BF8C69D1DD4FB8200877C0E /* InvertBinaryTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
