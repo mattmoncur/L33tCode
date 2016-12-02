@@ -18,6 +18,8 @@
 		9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7C41DCBB9080067B468 /* TwoSum.m */; };
 		9BAEE7CC1DCBC5510067B468 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE7CB1DCBC5510067B468 /* README.md */; };
 		9BC21D991DD375DD00EFA108 /* ReverseStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */; };
+		9BEE5C981DF11737007ABD14 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE5C971DF11737007ABD14 /* BinarySearch.swift */; };
+		9BEE5C9C1DF11791007ABD14 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE5C9B1DF11791007ABD14 /* BinarySearchTests.swift */; };
 		9BEFD40C1DD37FF600897F3C /* BattleshipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFD40B1DD37FF600897F3C /* BattleshipsTests.m */; };
 		9BEFD40E1DD380BC00897F3C /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFD40D1DD380BC00897F3C /* description.txt */; };
 		9BEFD4111DD380CA00897F3C /* Battleships.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEFD40F1DD380CA00897F3C /* Battleships.h */; };
@@ -55,6 +57,9 @@
 		9BAEE7C41DCBB9080067B468 /* TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoSum.m; path = TwoSum/TwoSum.m; sourceTree = "<group>"; };
 		9BAEE7CB1DCBC5510067B468 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseStringTests.m; sourceTree = "<group>"; };
+		9BEE5C971DF11737007ABD14 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		9BEE5C9A1DF11790007ABD14 /* L33tCodeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "L33tCodeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BEE5C9B1DF11791007ABD14 /* BinarySearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		9BEFD40B1DD37FF600897F3C /* BattleshipsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleshipsTests.m; sourceTree = "<group>"; };
 		9BEFD40D1DD380BC00897F3C /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = Battleships/description.txt; sourceTree = "<group>"; };
 		9BEFD40F1DD380CA00897F3C /* Battleships.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Battleships.h; path = Battleships/Battleships.h; sourceTree = "<group>"; };
@@ -117,6 +122,7 @@
 		9BAEE7A51DCBB4E80067B468 /* L33tCode */ = {
 			isa = PBXGroup;
 			children = (
+				9BEE5C961DF1171F007ABD14 /* Binary Search Array */,
 				9BEFD4091DD37FBA00897F3C /* Battleships */,
 				9BF8C6931DD4FAB500877C0E /* InvertBinaryTree */,
 				9BA6FC0E1DCBC8310089545C /* ReverseString */,
@@ -129,6 +135,7 @@
 		9BAEE7B01DCBB4E80067B468 /* L33tCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				9BEE5C991DF11773007ABD14 /* Binary Search Array */,
 				9BEFD40A1DD37FDF00897F3C /* Battleships */,
 				9BF8C6A01DD4FC6800877C0E /* InvertBinaryTree */,
 				9BC21D971DD375BA00EFA108 /* ReverseString */,
@@ -169,6 +176,7 @@
 		9BAEE7CA1DCBBBD40067B468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BEE5C9A1DF11790007ABD14 /* L33tCodeTests-Bridging-Header.h */,
 				9BAEE7B31DCBB4E80067B468 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -180,6 +188,22 @@
 				9BC21D981DD375DD00EFA108 /* ReverseStringTests.m */,
 			);
 			name = ReverseString;
+			sourceTree = "<group>";
+		};
+		9BEE5C961DF1171F007ABD14 /* Binary Search Array */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE5C971DF11737007ABD14 /* BinarySearch.swift */,
+			);
+			name = "Binary Search Array";
+			sourceTree = "<group>";
+		};
+		9BEE5C991DF11773007ABD14 /* Binary Search Array */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE5C9B1DF11791007ABD14 /* BinarySearchTests.swift */,
+			);
+			name = "Binary Search Array";
 			sourceTree = "<group>";
 		};
 		9BEFD4091DD37FBA00897F3C /* Battleships */ = {
@@ -286,12 +310,13 @@
 				TargetAttributes = {
 					9BAEE7A21DCBB4E80067B468 = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
 					};
 					9BAEE7AB1DCBB4E80067B468 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = L8NJVP5KD6;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -344,6 +369,7 @@
 				9BA6FC121DCBC86B0089545C /* ReverseString.m in Sources */,
 				9BAEE7C61DCBB9080067B468 /* TwoSum.m in Sources */,
 				9BEFD4121DD380CA00897F3C /* Battleships.m in Sources */,
+				9BEE5C981DF11737007ABD14 /* BinarySearch.swift in Sources */,
 				9BF8C69D1DD4FB8200877C0E /* InvertBinaryTree.m in Sources */,
 				9BF8C6A81DD4FDCF00877C0E /* TreeNode.m in Sources */,
 			);
@@ -354,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEE7BE1DCBB6FB0067B468 /* TwoSumTests.m in Sources */,
+				9BEE5C9C1DF11791007ABD14 /* BinarySearchTests.swift in Sources */,
 				9BC21D991DD375DD00EFA108 /* ReverseStringTests.m in Sources */,
 				9BF8C6A41DD4FCA300877C0E /* InvertBinaryTreeTests.m in Sources */,
 				9BEFD40C1DD37FF600897F3C /* BattleshipsTests.m in Sources */,
@@ -511,22 +538,31 @@
 		9BAEE7BB1DCBB4E80067B468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L8NJVP5KD6;
 				INFOPLIST_FILE = L33tCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmoncur.L33tCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "L33tCodeTests/L33tCodeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9BAEE7BC1DCBB4E80067B468 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L8NJVP5KD6;
 				INFOPLIST_FILE = L33tCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmoncur.L33tCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "L33tCodeTests/L33tCodeTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
